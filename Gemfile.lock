@@ -20,7 +20,7 @@ GEM
       data_objects (= 0.10.7)
     erubis (2.7.0)
     eventmachine (0.12.10)
-    json (1.6.4)
+    json (2.3.0)
     librex (0.0.52)
     msfrpc-client (1.0.1)
       librex (>= 0.0.32)
@@ -45,8 +45,11 @@ DEPENDENCIES
   dm-sqlite-adapter
   erubis
   eventmachine (= 0.12.10)
-  json
+  json (>= 2.3.0)
   msfrpc-client
   parseconfig
   term-ansicolor
   thin
+
+BUNDLED WITH
+   1.17.3
