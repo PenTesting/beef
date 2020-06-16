@@ -24,7 +24,7 @@ else
   gem "eventmachine", "0.12.10"
 end
 
-gem "thin"
+gem "thin", ">= 1.3.1"
 gem "ansi"
 gem "term-ansicolor", :require => "term/ansicolor"
 gem "dm-core"
